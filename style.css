@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, red, yellow);
+    font-family: "montserrat", sans-serif;
+    height: 150vh;
+  }
+  
+  
+  h1, p {
+    padding: 20px 60px;
+    text-align: justify;
+    font-size: 18px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  ::-webkit-scrollbar {
+    background #ddd;
+    width: 15px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 10px #00000070;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(125deg,#143642,#0F8B8D);
+    border-radius: 10px;
+  }
+
+  
