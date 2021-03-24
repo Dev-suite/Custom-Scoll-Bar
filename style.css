@@ -27,23 +27,23 @@ a{
 
 #scrollbar-wrapper {
   display: flex;
-  height: 120vh;
+  height: 130vh;
   flex-wrap: wrap;
-  margin-top: -40px;
+  margin-top: -20px;
   justify-content: space-between;
   align-items: center;
 }
 
 .scrollbar {
-  height: 450px;
-  width: 35px;
+  height: 550px;
+  width: 45px;
   background: #f5f5f5;
   overflow-y: scroll;
   margin: 25px;
 }
 
 .force-overflow {
-  min-height: 550px;
+  min-height: 650px;
 }
 
 /*
